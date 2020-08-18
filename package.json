@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/cdgwebs/site-starter#readme",
   "dependencies": {
+    "bootstrap": "^4.5.2",
     "chalk": "^4.1.0",
+    "debug": "^4.1.1",
     "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "morgan": "^1.10.0",
     "path": "^0.12.7"
   }
 }
