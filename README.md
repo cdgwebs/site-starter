@@ -9,7 +9,11 @@ npm install chalk
 npm install path
 npm install debug
 npm install morgan
-# Add Bootstrap
-# Add jQuery
+npm install bootstrap
+npm install jquery
+npm install eslint
+# use https://airbnb.io/javascript/ styleguide for eslint
+# look at node.green
+
 
 
