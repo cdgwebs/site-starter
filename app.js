@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const morgan = require('morgan');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(morgan('combined'));
@@ -30,7 +30,7 @@ app.get('/', (req, res, next) => {
     return next;
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
     debug(`Running in ${chalk.green(path.join(__dirname, '/'))}`);
     debug(`Listening on port: ${chalk.green(port)}`);
 });
